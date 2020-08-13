@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: #c90;}
+            .cont{position: relative; top:100px; width: 200px; height: 300px; margin: 0 auto; background-color: #a52a2a;}
+            .frame{position: relative; top:20px; width: 150px; height: 280px; margin: 0 auto; background:url(엄준식.jpg) no-repeat;background-position: center;-webkit-background-size: auto 100%; background-size:auto 100%;perspective: 480px;}
+            .door{position: relative; width: 150px; height: 280px; background-color: #964b00;transform: rotateY(45deg);transform-origin: left;animation: opendoor 2s ease-in-out infinite alternate;}
+            .handle{position: absolute;top: 150px; right: 10px; width: 18px; height: 18px; border-radius: 50px;background-color: #fac87d;}
+            @keyframes opendoor{
+                from{transform: rotateY(70deg);}
+                to{transform: rotateY(-60deg);}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cont">
+            <div class="frame">
+                <div class="door">
+                    <div class="handle"></div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </body>
+</html>

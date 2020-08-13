@@ -1,0 +1,2 @@
+#img{width:20px; height: 30px; transition: all ease 0.5s;}/*애니매이션 지속시간*/
+#img:hover{transform: rotate(-90deg);}/*transform 애니매이션,rotate회전(90deg)90도만큼 회전*/
